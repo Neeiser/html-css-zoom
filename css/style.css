@@ -6,6 +6,8 @@ html{
 --grey-padd: #4a4a4a;
 --trasp-black: #00000075;
 --darker-gray: #222222;
+--green: #3da80f;
+--red: #ff0000;
 }
 
 
@@ -25,8 +27,6 @@ a{
     color: var(--white);
     text-decoration: none;
 }
-
-
 
 /* SELETTORI SPECIFICI */
 
@@ -109,7 +109,8 @@ footer .functionalities{
 }
 
 footer .fas{
-    font-size: 1.5em;
+    font-size: 2em;
+    margin-bottom: 0.2em;
 }
 
 .row{
@@ -124,4 +125,36 @@ footer .fas{
     justify-content: center;
     height: 5em;
     margin: 0 1em;
+    padding: 2em 0.5em;
+}
+
+.funct:hover{
+    cursor: pointer;
+    background-color: #0000002d;
+}
+
+.fa-chevron-up{
+    margin-top: 2.5em;
+    font-size: 10px !important;
+}
+
+.fa-share-square{
+    color: var(--green);
+}
+
+.row-right {
+    background-color: var(--grey-padd);
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.row-right span{
+    color: var(--red);
+    padding: 0 2em;
+}
+
+.row-right:hover{
+    cursor: pointer;
+    filter: brightness(70%);
 }
