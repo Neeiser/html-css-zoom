@@ -5,6 +5,7 @@ html{
 --black: #000000;
 --grey-padd: #4a4a4a;
 --trasp-black: #00000075;
+--darker-gray: #222222;
 }
 
 
@@ -85,4 +86,18 @@ main{
     font-size: 0.8em;
     background-color: var(--trasp-black);
     color: var(--white);
+}
+
+
+
+/* FOOTER */
+
+footer .functionalities{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    background-color: var(--darker-gray);
 }
